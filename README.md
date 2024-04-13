@@ -1,7 +1,5 @@
 # whats_app
 
-
-
 **packages we using :**
 
 - firebase
@@ -9,6 +7,7 @@
 - provider
 - clean code
 - repository pattern
+- mvvm structure
 
 
 ## Usage
