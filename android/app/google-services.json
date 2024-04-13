@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "2874420508",
+    "project_id": "whatsapp-2ce4e",
+    "storage_bucket": "whatsapp-2ce4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2874420508:android:e1ee4b726fe29a96015ed9",
+        "android_client_info": {
+          "package_name": "com.classcar200.whats_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2874420508-pfk9kfjkbffpl4c4f8f60kqgorm6mlt3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUBB0FgafM1tWnlZsred8Q5dA87_8i5us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2874420508-pfk9kfjkbffpl4c4f8f60kqgorm6mlt3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
