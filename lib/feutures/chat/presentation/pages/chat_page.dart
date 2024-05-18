@@ -10,6 +10,7 @@ import '../../domain/entities/message_entity.dart';
 import '../manager/chat/chat_cubit.dart';
 
 class ChatPage extends StatefulWidget {
+  
   final String uid;
   const ChatPage({super.key, required this.uid});
 
