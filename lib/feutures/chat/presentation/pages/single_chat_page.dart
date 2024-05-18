@@ -2,15 +2,12 @@
 
 import 'dart:io';
 import 'package:agora_uikit/agora_uikit.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_sound/public/flutter_sound_recorder.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:intl/intl.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:provider/provider.dart';
-import 'package:swipe_to/swipe_to.dart';
 import 'package:whats_app/feutures/chat/presentation/widgets/single_chat/appBar_single_chat_actions.dart';
 import 'package:whats_app/feutures/chat/presentation/widgets/single_chat/appBar_single_chat_title.dart';
 import 'package:whats_app/feutures/chat/presentation/widgets/single_chat/bg.for_single_chat.dart';
@@ -22,10 +19,8 @@ import 'package:whats_app/feutures/chat/presentation/widgets/single_chat/possiti
 import '../../../../storage/storage_provider.dart';
 import '../../../app/const/app_const.dart';
 import '../../../app/const/message_type_const.dart';
-import '../../../app/globel/widgets/display_alret.dart';
 import '../../../app/globel/widgets/sigle_chate/show_image_picked.dart';
 import '../../../app/globel/widgets/sigle_chate/show_video_picked.dart';
-import '../../../calls/domain/entities/call_entity.dart';
 import '../../../calls/presentation/pages/call_pick_up.dart';
 import '../../../theme/style.dart';
 import '../../../user/presentation/manager/get_single_user/get_single_user_cubit.dart';
@@ -34,8 +29,6 @@ import '../../domain/entities/message_replay_entity.dart';
 import '../manager/message/message_cubit.dart';
 import '../widgets/chat_utlis.dart';
 import '../widgets/message/message_replay_preview_widget.dart';
-import '../widgets/message/message_replay_type_widget.dart';
-import '../widgets/message/message_type_widget.dart';
 
 class SingleChatPage extends StatefulWidget {
   final MessageEntity message;
