@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:whats_up/feutures/app/globel/functions/navigationpage.dart';
-import 'package:whats_up/feutures/app/globel/widgets/next_button.dart';
-import 'package:whats_up/feutures/theme/style.dart';
-import 'package:whats_up/feutures/user/presentation/pages/login_page.dart';
+import 'package:whats_up/core/globel/functions/navigationpage.dart';
+import 'package:whats_up/core/globel/widgets/next_button.dart';
+import 'package:whats_up/core/theme/style.dart';
+import 'package:whats_up/features/user/presentation/pages/login_page.dart';
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({super.key});

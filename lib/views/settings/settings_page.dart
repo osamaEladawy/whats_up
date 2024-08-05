@@ -5,15 +5,15 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
-import 'package:whats_up/feutures/app/class/handle_image.dart';
-import 'package:whats_up/feutures/app/const/page_const.dart';
-import 'package:whats_up/feutures/app/globel/functions/navigationpage.dart';
-import 'package:whats_up/feutures/app/globel/widgets/dialogOfExit.dart';
-import 'package:whats_up/feutures/theme/style.dart';
-import 'package:whats_up/feutures/user/presentation/manager/auth/auth_cubit.dart';
-import '../../feutures/user/data/remote/models/user_model.dart';
-import '../../feutures/user/domain/entities/user_entity.dart';
-import '../../feutures/user/presentation/manager/get_single_user/get_single_user_cubit.dart';
+import 'package:whats_up/core/class/handle_image.dart';
+import 'package:whats_up/core/const/page_const.dart';
+import 'package:whats_up/core/globel/functions/navigationpage.dart';
+import 'package:whats_up/core/globel/widgets/dialogOfExit.dart';
+import 'package:whats_up/core/theme/style.dart';
+import 'package:whats_up/features/user/presentation/manager/auth/auth_cubit.dart';
+import '../../features/user/data/remote/models/user_model.dart';
+import '../../features/user/domain/entities/user_entity.dart';
+import '../../features/user/presentation/manager/get_single_user/get_single_user_cubit.dart';
 
 class SettingsPage extends StatefulWidget {
   final String uid;

@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:whats_up/feutures/app/const/page_const.dart';
+import 'package:whats_up/core/const/page_const.dart';
 import 'package:whats_up/views/home/contacts_page.dart';
 
-import '../feutures/calls/domain/entities/call_entity.dart';
-import '../feutures/calls/presentation/pages/calls_contacts_page.dart';
-import '../feutures/calls/presentation/pages/calls_page.dart';
-import '../feutures/chat/domain/entities/message_entity.dart';
-import '../feutures/chat/presentation/pages/single_chat_page.dart';
-import '../feutures/status/domain/entities/status_entity.dart';
-import '../feutures/status/presentation/pages/my_status_page.dart';
-import '../feutures/status/presentation/pages/status_page.dart';
-import '../feutures/user/domain/entities/user_entity.dart';
-import '../feutures/user/presentation/pages/edit_profile_page.dart';
+import '../features/calls/domain/entities/call_entity.dart';
+import '../features/calls/presentation/pages/calls_contacts_page.dart';
+import '../features/calls/presentation/pages/calls_page.dart';
+import '../features/chat/domain/entities/message_entity.dart';
+import '../features/chat/presentation/pages/single_chat_page.dart';
+import '../features/status/domain/entities/status_entity.dart';
+import '../features/status/presentation/pages/my_status_page.dart';
+import '../features/status/presentation/pages/status_page.dart';
+import '../features/user/domain/entities/user_entity.dart';
+import '../features/user/presentation/pages/edit_profile_page.dart';
 import '../views/settings/settings_page.dart';
 
 class OnGenerateRoute {

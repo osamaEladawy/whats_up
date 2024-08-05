@@ -9,20 +9,20 @@ import 'package:path/path.dart' as path;
 import 'package:whats_up/main_injection_container.dart';
 //  as di;
 
-import '../../feutures/app/const/page_const.dart';
-import '../../feutures/app/globel/widgets/sigle_chate/show_image_and_video.dart';
-import '../../feutures/calls/presentation/manager/my_call/my_call_history_cubit.dart';
-import '../../feutures/calls/presentation/pages/calls_history.dart';
-import '../../feutures/chat/presentation/pages/chat_page.dart';
-import '../../feutures/status/domain/entities/status_entity.dart';
-import '../../feutures/status/domain/entities/status_image_entity.dart';
-import '../../feutures/status/domain/use_cases/get_my_status_future_usecase.dart';
-import '../../feutures/status/presentation/manager/status/status_cubit.dart';
-import '../../feutures/status/presentation/pages/status_page.dart';
-import '../../feutures/theme/style.dart';
-import '../../feutures/user/domain/entities/user_entity.dart';
-import '../../feutures/user/presentation/manager/get_single_user/get_single_user_cubit.dart';
-import '../../feutures/user/presentation/manager/user/user_cubit.dart';
+import '../../core/const/page_const.dart';
+import '../../core/globel/widgets/sigle_chate/show_image_and_video.dart';
+import '../../features/calls/presentation/manager/my_call/my_call_history_cubit.dart';
+import '../../features/calls/presentation/pages/calls_history.dart';
+import '../../features/chat/presentation/pages/chat_page.dart';
+import '../../features/status/domain/entities/status_entity.dart';
+import '../../features/status/domain/entities/status_image_entity.dart';
+import '../../features/status/domain/use_cases/get_my_status_future_usecase.dart';
+import '../../features/status/presentation/manager/status/status_cubit.dart';
+import '../../features/status/presentation/pages/status_page.dart';
+import '../../core/theme/style.dart';
+import '../../features/user/domain/entities/user_entity.dart';
+import '../../features/user/presentation/manager/get_single_user/get_single_user_cubit.dart';
+import '../../features/user/presentation/manager/user/user_cubit.dart';
 import '../../storage/storage_provider.dart';
 
 class HomePage extends StatefulWidget {
@@ -161,13 +161,9 @@ class _HomePageState extends State<HomePage>
                       color: greyColor,
                       size: 28,
                     ),
-                    const SizedBox(
-                      width: 25,
-                    ),
+                    const SizedBox(width: 25),
                     const Icon(Icons.search, color: greyColor, size: 28),
-                    const SizedBox(
-                      width: 10,
-                    ),
+                    const SizedBox(width: 10),
                     PopupMenuButton<String>(
                       icon: const Icon(
                         Icons.more_vert,
@@ -227,35 +223,44 @@ class _HomePageState extends State<HomePage>
                 _currentTabIndex, currentUser),
             body: PopScope(
               canPop: false,
-              onPopInvoked: (b){
-                showDialog(context: context, builder: (context){
-                  return Dialog(
-                    child: Container(
-                      height: 100,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(50),
-                      ),
-                      child: Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          const SizedBox(height: 15,),
-                          const Text("Are You Exit App"),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              onPopInvoked: (b) {
+                showDialog(
+                    context: context,
+                    builder: (context) {
+                      return Dialog(
+                        child: Container(
+                          height: 100,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(50),
+                          ),
+                          child: Column(
+                            mainAxisSize: MainAxisSize.min,
                             children: [
-                              TextButton(onPressed: (){
-                                Navigator.of(context).maybePop();
-                              }, child: const Text("NO")),
-                              TextButton(onPressed: (){
-                                exit(0);
-                              }, child: const Text("OK")),
+                              const SizedBox(
+                                height: 15,
+                              ),
+                              const Text("Are You Exit App"),
+                              Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceEvenly,
+                                children: [
+                                  TextButton(
+                                      onPressed: () {
+                                        Navigator.of(context).maybePop();
+                                      },
+                                      child: const Text("NO")),
+                                  TextButton(
+                                      onPressed: () {
+                                        exit(0);
+                                      },
+                                      child: const Text("OK")),
+                                ],
+                              )
                             ],
-                          )
-                        ],
-                      ),
-                    ),
-                  );
-                });
+                          ),
+                        ),
+                      );
+                    });
               },
               child: TabBarView(
                 controller: _tabController,
@@ -417,5 +422,3 @@ class _HomePageState extends State<HomePage>
     });
   }
 }
-
-

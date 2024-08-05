@@ -2,7 +2,7 @@
 
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:whats_up/feutures/theme/style.dart';
+import 'package:whats_up/core/theme/style.dart';
 import 'package:whats_up/views/wellcome/wellcome_page.dart';
 
 class SplashScreen extends StatefulWidget {

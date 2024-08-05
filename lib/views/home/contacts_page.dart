@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:whats_up/feutures/user/presentation/manager/get_device_number/get_device_number_cubit.dart';
+import 'package:whats_up/features/user/presentation/manager/get_device_number/get_device_number_cubit.dart';
 
-import '../../feutures/app/const/page_const.dart';
-import '../../feutures/app/globel/widgets/profile_widget.dart';
-import '../../feutures/chat/domain/entities/message_entity.dart';
-import '../../feutures/theme/style.dart';
-import '../../feutures/user/presentation/manager/get_single_user/get_single_user_cubit.dart';
-import '../../feutures/user/presentation/manager/user/user_cubit.dart';
+import '../../core/const/page_const.dart';
+import '../../core/globel/widgets/profile_widget.dart';
+import '../../features/chat/domain/entities/message_entity.dart';
+import '../../core/theme/style.dart';
+import '../../features/user/presentation/manager/get_single_user/get_single_user_cubit.dart';
+import '../../features/user/presentation/manager/user/user_cubit.dart';
 
 // import '../../feutures/user/presentation/manager/get_device_number/get_device_number_cubit.dart';
 // import '../../feutures/user/presentation/manager/get_single_user/get_single_user_cubit.dart';
