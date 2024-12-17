@@ -1,5 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../domain/use_cases/credential/get_current_uid_usecasses.dart';
 import '../../../domain/use_cases/credential/is_sign_in_usecases.dart';
@@ -50,4 +51,5 @@ class AuthCubit extends Cubit<AuthState> {
       emit(UnAuthenticated());
     }
   }
+
 }

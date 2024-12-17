@@ -8,10 +8,10 @@ import 'package:flutter_story_view/flutter_story_view.dart';
 import 'package:flutter_story_view/models/story_item.dart';
 import 'package:provider/provider.dart';
 import 'package:path/path.dart' as path;
-import 'package:whats_up/core/const/page_const.dart';
-import 'package:whats_up/core/globel/data/data_formates.dart';
-import 'package:whats_up/core/globel/widgets/profile_widget.dart';
-import 'package:whats_up/core/globel/widgets/sigle_chate/show_image_and_video.dart';
+import 'package:whats_up/core/routes/page_const.dart';
+import 'package:whats_up/core/functions/data_formates.dart';
+import 'package:whats_up/shared/widgets/profile_widget.dart';
+import 'package:whats_up/shared/widgets/sigle_chate/show_image_and_video.dart';
 import 'package:whats_up/features/status/domain/entities/status_entity.dart';
 import 'package:whats_up/features/status/domain/entities/status_image_entity.dart';
 import 'package:whats_up/features/status/domain/use_cases/get_my_status_future_usecase.dart';
@@ -21,8 +21,8 @@ import 'package:whats_up/features/status/presentation/widgets/status_dotted_bord
 import 'package:whats_up/core/theme/style.dart';
 import 'package:whats_up/features/user/domain/entities/user_entity.dart';
 import 'package:whats_up/main_injection_container.dart';
-import 'package:whats_up/storage/storage_provider.dart';
-import 'package:whats_up/views/home/home_page.dart';
+import 'package:whats_up/core/providers/storage_provider.dart';
+import 'package:whats_up/features/home/screens/home_page.dart';
 
 
 class StatusPage extends StatefulWidget {

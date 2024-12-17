@@ -1,8 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
-import '../../../../core/globel/data/data_formates.dart';
-import '../../../../core/globel/widgets/list_tile_of_user.dart';
+import '../../../../core/functions/data_formates.dart';
+import '../../../../shared/widgets/list_tile_of_user.dart';
 import '../../../../core/theme/style.dart';
 
 class ListOfHistoryCalls extends StatelessWidget {

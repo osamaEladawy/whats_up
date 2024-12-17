@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_pin_code_fields/flutter_pin_code_fields.dart';
 
-import '../../../../core/globel/widgets/next_button.dart';
+import '../../../../shared/widgets/next_button.dart';
 import '../../../../core/theme/style.dart';
 import '../manager/cerdential/credential_cubit.dart';
 

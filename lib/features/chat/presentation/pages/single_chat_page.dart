@@ -9,11 +9,11 @@ import 'package:image_picker/image_picker.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:provider/provider.dart';
 
-import '../../../../storage/storage_provider.dart';
+import '../../../../core/providers/storage_provider.dart';
 import '../../../../core/const/app_const.dart';
 import '../../../../core/const/message_type_const.dart';
-import '../../../../core/globel/widgets/sigle_chate/show_image_picked.dart';
-import '../../../../core/globel/widgets/sigle_chate/show_video_picked.dart';
+import '../../../../shared/widgets/sigle_chate/show_image_picked.dart';
+import '../../../../shared/widgets/sigle_chate/show_video_picked.dart';
 import '../../../calls/presentation/pages/call_pick_up.dart';
 import '../../../../core/theme/style.dart';
 import '../../../user/presentation/manager/get_single_user/get_single_user_cubit.dart';

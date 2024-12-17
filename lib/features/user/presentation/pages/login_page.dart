@@ -3,10 +3,10 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:country_pickers/country.dart';
 import 'package:country_pickers/country_pickers.dart';
 
-import '../../../../views/home/home_page.dart';
+import '../../../home/screens/home_page.dart';
 import '../../../../core/const/app_const.dart';
-import '../../../../core/globel/functions/validate.dart';
-import '../../../../core/globel/widgets/next_button.dart';
+import '../../../../core/functions/validate.dart';
+import '../../../../shared/widgets/next_button.dart';
 import '../../../../core/theme/style.dart';
 import '../manager/auth/auth_cubit.dart';
 import '../manager/cerdential/credential_cubit.dart';

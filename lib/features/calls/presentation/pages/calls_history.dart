@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../../core/globel/data/data_formates.dart';
-import '../../../../core/globel/widgets/profile_widget.dart';
+import '../../../../core/functions/data_formates.dart';
+import '../../../../shared/widgets/profile_widget.dart';
 import '../../../../core/theme/style.dart';
 import '../../../user/domain/entities/user_entity.dart';
 import '../manager/my_call/my_call_history_cubit.dart';

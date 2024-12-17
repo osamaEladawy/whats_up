@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:whats_up/core/functions/extinctions.dart';
 
-import '../../../../core/class/handle_image.dart';
-import '../../../../core/const/page_const.dart';
-import '../../../../core/globel/functions/navigationpage.dart';
+import '../../../../core/providers/handle_image.dart';
+import '../../../../core/routes/page_const.dart';
 import '../../../../core/theme/style.dart';
 
 class MyStatusOfRow extends StatelessWidget {
@@ -59,7 +59,7 @@ class MyStatusOfRow extends StatelessWidget {
         const Spacer(),
         IconButton(
           onPressed: () {
-            navigationNamePage(context, PageConst.myStatusPage);
+            context.pushNamed(PageConst.myStatusPage);
           },
           icon: Icon(
             Icons.more_horiz,

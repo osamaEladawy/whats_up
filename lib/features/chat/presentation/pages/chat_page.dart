@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
 
-import '../../../../core/const/page_const.dart';
-import '../../../../core/globel/widgets/profile_widget.dart';
+import '../../../../core/routes/page_const.dart';
+import '../../../../shared/widgets/profile_widget.dart';
 import '../../../../core/theme/style.dart';
 import '../../domain/entities/chat_entity.dart';
 import '../../domain/entities/message_entity.dart';

@@ -2,6 +2,9 @@ part of 'credential_cubit.dart';
 
 sealed class CredentialState extends Equatable {
   const CredentialState();
+
+   @override
+  List<Object> get props => [];
 }
 
 final class CredentialInitial extends CredentialState {
@@ -25,6 +28,8 @@ final class CredentialPhoneAuthProfileInfo extends CredentialState {
   List<Object> get props => [];
 }
 final class CredentialFailure extends CredentialState {
-  @override
-  List<Object> get props => [];
+ 
 }
+
+final class SelectCountry extends CredentialState{}
+final class SelectCountryCode extends CredentialState{}

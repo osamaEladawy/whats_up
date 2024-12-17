@@ -3,7 +3,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../../core/const/message_type_const.dart';
-import '../../../../../core/globel/widgets/profile_widget.dart';
+import '../../../../../shared/widgets/profile_widget.dart';
 import '../../../../../core/theme/style.dart';
 import 'message_audio_widget.dart';
 import 'message_video_widget.dart';

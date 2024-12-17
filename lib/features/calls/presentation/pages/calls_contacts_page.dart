@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 
-import '../../../../core/globel/widgets/profile_widget.dart';
+import '../../../../shared/widgets/profile_widget.dart';
 import '../../../../core/theme/style.dart';
 
 class CallContactsPage extends StatefulWidget {

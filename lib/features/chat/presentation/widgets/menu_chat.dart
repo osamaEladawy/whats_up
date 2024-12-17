@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:whats_up/core/functions/extinctions.dart';
 
-import '../../../../core/const/page_const.dart';
-import '../../../../core/globel/functions/navigationpage.dart';
-import '../../../../core/globel/widgets/list_tile_of_user.dart';
+import '../../../../core/routes/page_const.dart';
+import '../../../../shared/widgets/list_tile_of_user.dart';
 
 class MenuChat extends StatelessWidget {
   const MenuChat({super.key});
@@ -11,7 +11,7 @@ class MenuChat extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTileOfUser(
       onTap: () {
-        navigationNamePage(context, PageConst.singleChatPage);
+       context.pushNamed(PageConst.singleChatPage);
       },
       subtitle: const Text("last message from user"),
       trailing: Text(

@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get_time_ago/get_time_ago.dart';
 
-import '../../../../views/home/home_page.dart';
-import '../../../../core/globel/widgets/profile_widget.dart';
+import '../../../home/screens/home_page.dart';
+import '../../../../shared/widgets/profile_widget.dart';
 import '../../../../core/theme/style.dart';
 import '../../domain/entities/status_entity.dart';
 import '../manager/status/status_cubit.dart';

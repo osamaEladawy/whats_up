@@ -5,7 +5,7 @@ import 'package:intl/intl.dart';
 import 'package:swipe_to/swipe_to.dart';
 
 import '../../../../../core/const/message_type_const.dart';
-import '../../../../../core/globel/widgets/display_alret.dart';
+import '../../../../../shared/widgets/display_alret.dart';
 import '../../../../../core/theme/style.dart';
 import '../../../domain/entities/message_entity.dart';
 import '../../../domain/entities/message_replay_entity.dart';

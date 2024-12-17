@@ -3,10 +3,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:whats_up/core/globel/widgets/list_tile_of_user.dart';
+import 'package:whats_up/shared/widgets/list_tile_of_user.dart';
 
-import '../../../../core/class/handle_image.dart';
-import '../../../../core/globel/data/data_formates.dart';
+import '../../../../core/providers/handle_image.dart';
+import '../../../../core/functions/data_formates.dart';
 
 class ListOfStories extends StatelessWidget {
   const ListOfStories({super.key});

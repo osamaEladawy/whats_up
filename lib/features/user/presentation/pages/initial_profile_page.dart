@@ -9,11 +9,10 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';
 
-import '../../../../storage/storage_provider.dart';
-import '../../../../views/home/home_page.dart';
-import '../../../../core/class/handle_image.dart';
+import '../../../../core/providers/storage_provider.dart';
+import '../../../../core/providers/handle_image.dart';
 import '../../../../core/const/app_const.dart';
-import '../../../../core/globel/widgets/next_button.dart';
+import '../../../../shared/widgets/next_button.dart';
 import '../../../../core/theme/style.dart';
 import '../../data/remote/models/user_model.dart';
 import '../../domain/entities/user_entity.dart';
